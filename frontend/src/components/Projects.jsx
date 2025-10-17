@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Zap, Github, AlertTriangle, BarChart } from 'lucide-react';
+import { Code, Zap, GitHub, AlertTriangle, BarChart } from 'lucide-react';
 
 // --- Component: Project Card ---
 // This component displays a single project entry.

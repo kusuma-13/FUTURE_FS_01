@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { createRoot } from 'react-dom';
-import { Github, Linkedin, Mail, Code, BarChart, Zap, Send, AlertTriangle, GraduationCap, HardHat, ChevronsRight, Briefcase } from 'lucide-react'; 
+import { GitHub, Linkedin, Mail, Code, BarChart, Zap, Send, AlertTriangle, GraduationCap, HardHat, ChevronsRight, Briefcase } from 'lucide-react'; 
 
 // --- Customizable Variables (Personal Information) ---
 const MY_NAME = "Kusuma V";
