@@ -52,10 +52,10 @@ const MOCK_EXPERIENCE = [
     role: "Data Analytics Intern",
     duration: "Summer 2024 (3 Months)",
     details: [
-      "Assisted in cleaning and preprocessing raw datasets using Pandas and NumPy, improving data reliability by 15%.",
-      "Developed interactive dashboards using Power BI for the sales team, reducing report generation time by 2 hours daily.",
-      "Wrote and optimized MySQL queries for complex data extraction, supporting a system migration project.",
-      "Contributed to data quality checks using Streamlit to build a lightweight data validation application."
+      "Assisted in cleaning and preprocessing raw datasets using **Pandas** and **NumPy**, improving data reliability by 15%.",
+      "Developed interactive dashboards using **Power BI** for the sales team, reducing report generation time by 2 hours daily.",
+      "Wrote and optimized **MySQL** queries for complex data extraction, supporting a system migration project.",
+      "Contributed to data quality checks using **Streamlit** to build a lightweight data validation application."
     ],
   },
 ];
@@ -544,7 +544,7 @@ const App = () => {
 
           {/* Timeline Container */}
           <div className="relative max-w-4xl mx-auto">
-            {/* Vertical Line */}
+            {/* Vertical Line - FIX: Added 'hidden' for mobile, then 'sm:block' for small screens and up */}
             <div className={`hidden sm:block absolute left-1/2 transform -translate-x-1/2 w-0.5 bg-gray-700 h-full`}></div>
             
             {/* Experience */}
@@ -572,8 +572,7 @@ const App = () => {
         </div>
       </section>
 
-      {/* --- Projects Section (Using imported component) --- */}
-      {/* We pass the data and the colors as props */}
+      {/* --- Projects Section --- */}
       <Projects 
         projects={projects} 
         accentColor={ACCENT_COLOR_CLASS} 
@@ -637,7 +636,7 @@ const App = () => {
         </div>
       </section>
 
-      {/* --- Contact Section (Using imported component) --- */}
+      {/* --- Contact Section --- */}
       <Contact 
         accentColor={ACCENT_COLOR_CLASS} 
       />
