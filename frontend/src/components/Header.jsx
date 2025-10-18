@@ -13,7 +13,7 @@ const Header = ({ name, accentColor, onNavigate }) => {
     { name: "Home", id: "home" },
     { name: "Skills", id: "skills" },
     { name: "Experience", id: "experience" }, 
-    { name: "Education", id: "education" },
+    { name: "Academics & Core Skills", id: "academics-skills" },
     { name: "Projects", id: "projects" },
     { name: "Contact", id: "contact" },
   ];
