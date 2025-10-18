@@ -11,7 +11,7 @@ import {
 const MY_NAME = "Kusuma V";
 const MY_TITLE = "Data Analyst Intern";
 const MY_BIO =
-  "I am a highly motivated Data Analyst Intern with a strong foundation in **Python (Pandas, NumPy)** and **SQL (MySQL)**. My passion lies in transforming raw data into actionable insights, specifically focused on **fraud pattern analysis** and **process optimization**. I thrive on challenges, having developed projects like a Transaction Fraud Analyzer and a Job Portal Resume Keyword Analyzer. I am proficient in creating dynamic visualizations using **Power BI** and **Streamlit** to communicate complex findings effectively, driving data-informed decisions.";
+  "I am a highly motivated Data Analyst Intern with a strong foundation in Python (Pandas, NumPy) and SQL (MySQL). My passion lies in transforming raw data into actionable insights, specifically focused on fraud pattern analysis and process optimization. I thrive on challenges, having developed projects like a Transaction Fraud Analyzer and a Job Portal Resume Keyword Analyzer. I am proficient in creating dynamic visualizations using Power BI and Streamlit to communicate complex findings effectively, driving data-informed decisions.";
 
 // **************************************************************************************************************************************************
 const PROFILE_IMAGE_URL = "https://github.com/kusuma-13/FUTURE_FS_01/blob/main/frontend/src/assets/profile_photo.jpeg.jpg?raw=true"; 
@@ -43,7 +43,7 @@ const education = [
         institution: "JS Pre-University College, Bengaluru",
         dates: "2021 - 2023",
         details: [
-            "Core Subjects: **Business Studies**, **Accountancy**, **Statistics**, and **Computer Science**.",
+            "Core Subjects: Business Studies, Accountancy, Statistics, and Computer Science.",
             "Established a strong foundation in commercial operations, financial analysis, and quantitative methods."
         ],
     },
@@ -56,7 +56,7 @@ const experience = [
     company: "Rooman Technologies Pvt. Ltd.",
     dates: "September 2025 (1 Month)",
     description: [
-      "Assisted in cleaning and preprocessing raw datasets using **Pandas** and **NumPy**, improving data reliability by 15%.",
+      "Assisted in cleaning and preprocessing raw datasets using Pandas and NumPy, improving data reliability by 15%.",
       "Developed interactive dashboards using **Power BI** for the sales team, reducing report generation time by 2 hours daily.",
       "Wrote and optimized **MySQL** queries for complex data extraction, supporting a system migration project.",
       "Contributed to data quality checks using **Streamlit** to build a lightweight data validation application."
