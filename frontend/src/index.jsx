@@ -14,7 +14,7 @@ const MY_BIO =
   "I am a highly motivated Data Analyst Intern with a strong foundation in **Python (Pandas, NumPy)** and **SQL (MySQL)**. My passion lies in transforming raw data into actionable insights, specifically focused on **fraud pattern analysis** and **process optimization**. I thrive on challenges, having developed projects like a Transaction Fraud Analyzer and a Job Portal Resume Keyword Analyzer. I am proficient in creating dynamic visualizations using **Power BI** and **Streamlit** to communicate complex findings effectively, driving data-informed decisions.";
 
 // **************************************************************************************************************************************************
-const PROFILE_IMAGE_URL = "https://github.com/kusuma-13/FUTURE_FS_01/blob/main/frontend/src/assets/profile_photo.jpg?raw=true"; 
+const PROFILE_IMAGE_URL = "https://github.com/kusuma-13/FUTURE_FS_01/blob/main/frontend/src/assets/profile_photo.jpeg.jpg?raw=true"; 
 // **************************************************************************************************************************************************
 
 const ACCENT_COLOR_CLASS = "sky"; // Change 'sky' to 'emerald', 'violet', or 'rose' to change theme
